@@ -62,7 +62,7 @@ class LocationBlock extends BlockBase implements ContainerFactoryPluginInterface
    */
   public function build() {
     $build = [];
-   // $build['drupalist_activate_block']['#markup'] = '<p>The Time is ' . $date = $this->date() . '</p>';
+    $build['drupalist_activate_block']['#markup'] = '<p>The Time is ' . $date = $this->date() . '</p>';
 
     return $build;
   }
