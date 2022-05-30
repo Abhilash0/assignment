@@ -1,0 +1,8 @@
+name: Admin Configuration Form
+type: module
+description: "Admin Service Form."
+package: custom
+core_version_requirement: ^9.0
+configure: admin_configuration_form.admin_settings
+dependencies:
+  - drupal:block

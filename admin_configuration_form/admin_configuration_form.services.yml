@@ -1,0 +1,4 @@
+services:
+  admin_configuration_form.admin_services:
+    class: Drupal\admin_configuration_form\AdminService
+    arguments: ['@config.factory']

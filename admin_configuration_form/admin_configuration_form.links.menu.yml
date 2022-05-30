@@ -1,0 +1,5 @@
+admin_configuration_form.admin_settings:
+  title: 'Admin Menu'
+  description: 'Configure system for admin form.'
+  route_name: 'admin_configuration_form.admin_settings' 
+  parent: 'system.admin_config_system'
